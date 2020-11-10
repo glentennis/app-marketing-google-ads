@@ -10,7 +10,7 @@ view: google_ad_metrics_dimension_base {
   dimension: average_position {
     hidden: yes
     type: number
-    sql: ${TABLE}.AveragePosition ;;
+    sql: NULL ;;
   }
 }
 
