@@ -18,6 +18,12 @@ view: google_ad_metrics_base_template {
   extension: required
   extends: [ad_metrics_base, google_ad_metrics_dimension_base]
 
+  dimension: average_position {
+    hidden: yes
+    type: number
+    sql: NULL ;;
+  }
+  
   measure: average_interaction_rate {
     label: "Interaction Rate"
     description: "Percent of people that interact with an ad."
